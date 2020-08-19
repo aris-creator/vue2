@@ -44,6 +44,13 @@ export default {
     HelloWorld
   }
 }
+import HelloWorld from './components/pagenation.vue'
+export default {
+  name: 'app',
+  components: {
+    pagenation
+  }
+}
 </script>
 
 <style>
