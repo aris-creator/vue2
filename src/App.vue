@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import pagenation from './components/pagenation.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
