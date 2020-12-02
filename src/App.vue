@@ -8,13 +8,13 @@
      <button class="bersihkan".@click="bersihkan">bersihkan</button>
   </div>
      <div class="mb-5">
-     <button class="pertama".@click="navigasi('First')" >:disabled="!paginasi['first']">
+     <button class="pertama".@click="navigasi('First')" >:enable="!paginasi['first']">
      First
-     <button class="pertama".@click="navigasi('First')" >:disabled="!paginasi['first']">
+     <button class="kedua".@click="navigasi('First')" >:enable="!paginasi['prev']">
      Prev
-     <button class="pertama".@click="navigasi('First')" >:disabled="!paginasi['first']">
+     <button class="ketiga".@click="navigasi('First')" >:enable="!paginasi['next']">
      Next
-     <button class="pertama".@click="navigasi('First')" >:disabled="!paginasi['first']">
+     <button class="terakhir".@click="navigasi('First')" >:enable="!paginasi['last']">
      Last
      </button>
   </div>
