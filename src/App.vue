@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import pagenation from './components/pagenation.vue'
 
 export default {
   name: 'app',
@@ -44,7 +44,7 @@ export default {
     HelloWorld
   }
 }
-import HelloWorld from './components/pagenation.vue'
+import pagenation from './components/pagenation.vue'
 export default {
   name: 'app',
   components: {
